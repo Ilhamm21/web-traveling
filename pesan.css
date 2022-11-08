@@ -1,0 +1,152 @@
+/* ===== HOME START =====*/
+*,
+html{
+	margin: 0;
+	padding: 0;
+}
+.container-navbar{
+	background-color: papayawhip;
+	width: 50%;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+}
+.ul-navbar{
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+}
+.li-navbar{
+	font-family: cursive;
+	font-size: larger;
+	list-style-type: none ;
+	padding: 20px;
+	margin: 5px;
+	color: skyblue;
+}
+.content{
+	width: 80%;
+	margin: 10px auto;
+	}
+	/*header*/
+	header{
+		font-family: cursive;
+		background-color: white;
+		padding: 20px 10px;
+		border-radius: 5px;
+		border: 1px solid #f0f0f0;
+		margin-bottom: 10px;
+	}
+	header h1.judul,
+	header h3.deskripsi{
+		text-align: center;
+	}
+	/*menu navigasi*/
+	.menu{
+		background-color: #1c89cd;
+		border: 5px solid #1c89cd;
+		border-radius: 8px;
+		/* margin-bottom: 10px; */
+	}
+	div.menu ul {
+		list-style:none;
+		overflow: hidden;
+	}
+	div.menu ul li {
+		float:left;
+		text-transform:uppercase;
+	}
+	div.menu ul li a {
+		display:block;
+		padding:0 20px;
+		text-decoration: none;
+		color: aliceblue;
+		font-family: cursive;
+		font-size:13px;
+		font-weight:400;
+	}
+
+	/* ===== Konten ===== */
+
+		/* background border warna biru */
+	   .konten{ 
+		background:#1c89cd;
+		border: #00868b;
+		width: 50%;
+		height: 700px;
+		margin: 30px auto 0;
+		border-radius: 5px;
+		overflow: hidden;
+	   }
+	   /* background border warna putih */
+	    .kepala{  
+		background: antiquewhite;
+		padding: 7px 7px;
+		height: 30px;
+	   }
+	   /* Teks "Transaksi Paket Wisata" */
+	   div h2.judul2{ 
+		text-align: center;
+		font-family: cursive;
+		color: #1a1a1a;
+		font-size: 20px;
+		justify-content: center;
+		}
+		/* Ukuran padding pada isi */
+	   .artikel{ 
+		padding:30px 50px;
+		color: #ffffff;
+		border-radius: 7px;
+	   }
+	   /* margin pada isi */
+	   .grup{ 
+		margin: 25px 0;
+	   }
+	   /* posisi isi */
+	   .grup label, 
+	   .grup input,
+	   .grup select{
+		display: block;
+	   }
+	   .grup label{
+		display: inline-block;
+		font-size: 17px;
+		margin: 0 0.3em;		
+		margin-bottom: 15px;
+	   }
+	   /* ukuran dan posisi teksfield */
+	   .grup input[type="text"],
+	   .grup input[type="tel"],
+	   .grup input[type="email"],
+	   .grup input[type="date"],
+	   .grup select[type="kelamin"]{
+		width: 400px;
+		height: 35px;
+		padding: 0 10px;
+		background: #cccccc;
+		border: #000000;
+		font-size: 14px;
+		color: #1a1a1a;
+		border-radius: 5px;
+		justify-content: center;
+		align-items: center;
+	   }
+	   /* Ukuran dan posisi button */
+	   .grup-offset button[type="submit"],
+	   .grup-offset button[type="reset"] {
+		float: right;
+		cursor: pointer;
+		background: white;
+		border: 1px;
+		font-size: 15px;
+		color: #1a1a1a;
+		border-radius: 5px;
+		padding: 10px 20px;
+		margin-inline-start: 20px;
+	   }
+	   /* Titik Merah */
+	   .required{
+		color: red;
+		font-weight: normal;
+	   }

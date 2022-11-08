@@ -1,0 +1,67 @@
+*,
+html{
+	margin: 0;
+	padding: 0;
+}
+.container-navbar{
+	background-color: papayawhip;
+	width: 50%;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+}
+.ul-navbar{
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+}
+.li-navbar{
+	font-family: cursive;
+	font-size: larger;
+	list-style-type: none ;
+	padding: 20px;
+	margin: 5px;
+	color: skyblue;
+}
+.content{
+	width: 80%;
+	margin: 10px auto;
+	}
+	/*header*/
+	header{
+		font-family: cursive;
+		background-color: white;
+		padding: 20px 10px;
+		border-radius: 5px;
+		border: 1px solid #f0f0f0;
+		margin-bottom: 10px;
+	}
+	header h1.judul,
+	header h3.deskripsi{
+		text-align: center;
+	}
+	/*menu navigasi*/
+	.menu{
+		background-color: #1c89cd;
+		border: 5px solid #1c89cd;
+		border-radius: 8px;
+		/* margin-bottom: 10px; */
+	}
+	div.menu ul {
+		list-style:none;
+		overflow: hidden;
+	}
+	div.menu ul li {
+		float:left;
+		text-transform:uppercase;
+	}
+	div.menu ul li a {
+		display:block;
+		padding:0 20px;
+		text-decoration: none;
+		color: aliceblue;
+		font-family: cursive;
+		font-size:13px;
+		font-weight:400;
+	}
